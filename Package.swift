@@ -4,15 +4,15 @@
 import PackageDescription
 
 let package = Package(
-  name: "EuphonicKit",
+  name: "EuphonixKit",
   platforms: [.iOS(.v13), .macOS(.v11), .watchOS(.v6), .tvOS(.v13)],
   products: [
-    .library(name: "EuphonicKit", type: .static, targets: ["EuphonicKit"]),
+    .library(name: "EuphonixKit", type: .static, targets: ["EuphonixKit"]),
   ],
   dependencies: [
   ],
   targets: [
-    .target(name: "EuphonicKit", dependencies: []),
-    .testTarget(name: "EuphonicKitTests", dependencies: ["EuphonicKit"]),
+    .target(name: "EuphonixKit", dependencies: []),
+    .testTarget(name: "EuphonixKitTests", dependencies: ["EuphonixKit"]),
   ]
 )
